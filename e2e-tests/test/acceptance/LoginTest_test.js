@@ -14,5 +14,4 @@ AfterSuite( (I) => {
 });
 Scenario('test something',  (I) => {
     I.loginAs(username, password);
-
 });

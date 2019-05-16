@@ -10,7 +10,6 @@
     "codeceptjs-tempmail": "^0.4.7",
     "codeceptjs-webdriverio": "^1.1.0",
     "selenium-standalone": "^6.15.4",
-    "uniqid": "^5.0.3",
     "allure-commandline": "^2.8.1"
   },
   "scripts": {}

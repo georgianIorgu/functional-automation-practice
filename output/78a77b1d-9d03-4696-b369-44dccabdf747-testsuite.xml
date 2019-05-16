@@ -1,0 +1,58 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1558004423405' stop='1558004443602'>
+    <name>LoginTest:</name>
+    <title>LoginTest:</title>
+    <test-cases>
+        <test-case start='1558004423408' status='failed' stop='1558004443551'>
+            <name>test something</name>
+            <title>test something</title>
+            <labels>
+                <label name='tag' value='null'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1558004426710' status='failed' stop='1558004443551'>
+                    <name>I: loginAs </name>
+                    <title>I: loginAs </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1558004426710' status='passed' stop='1558004433267'>
+                            <name>I am on page "/"</name>
+                            <title>I am on page "/"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1558004433267' status='passed' stop='1558004433391'>
+                            <name>I resize window "maximize", "maximize"</name>
+                            <title>I resize window "maximize", "maximize"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1558004433391' status='passed' stop='1558004433502'>
+                            <name>I wait for visible "//img[contains(@class, 'logo')]", 20</name>
+                            <title>I wait for visible "//img[contains(@class, 'logo')]", 20</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1558004433502' status='failed' stop='1558004443551'>
+                            <name>I fill field "//input[contains(@id, 'email') and (@name = 'email')]", "undefinedadmin_1"</name>
+                            <title>I fill field "//input[contains(@id, 'email') and (@name = 'email')]", "undefinedadmin_1"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Field "//input[contains(@id, 'email') and (@name = 'email')]" was not found by text|CSS|XPath</message>
+                <stack-trace>Error: Field "//input[contains(@id, 'email') and (@name = 'email')]" was not found by text|CSS|XPath
+                    at new ElementNotFound (C:\Users\Administrator\AppData\Roaming\npm\node_modules\codeceptjs\lib\helper\errors\ElementNotFound.js:14:11)
+                    at assertElementExists (C:\Users\Administrator\AppData\Roaming\npm\node_modules\codeceptjs\lib\helper\WebDriver.js:2248:11)
+                    at WebDriver.fillField (C:\Users\Administrator\AppData\Roaming\npm\node_modules\codeceptjs\lib\helper\WebDriver.js:678:5)
+                    at &lt;anonymous>
+                    at process._tickDomainCallback (internal/process/next_tick.js:229:7)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

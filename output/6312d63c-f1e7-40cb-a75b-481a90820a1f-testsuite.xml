@@ -1,0 +1,67 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1558004716725' stop='1558004730641'>
+    <name>LoginTest:</name>
+    <title>LoginTest:</title>
+    <test-cases>
+        <test-case start='1558004716727' status='passed' stop='1558004730567'>
+            <name>test something</name>
+            <title>test something</title>
+            <labels>
+                <label name='tag' value='null'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1558004720019' status='passed' stop='1558004730567'>
+                    <name>I: loginAs </name>
+                    <title>I: loginAs </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1558004720019' status='passed' stop='1558004723715'>
+                            <name>I am on page "index.php?controller=authentication&amp;back=my-account"</name>
+                            <title>I am on page "index.php?controller=authentication&amp;back=my-account"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1558004723716' status='passed' stop='1558004723835'>
+                            <name>I resize window "maximize", "maximize"</name>
+                            <title>I resize window "maximize", "maximize"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1558004723835' status='passed' stop='1558004723940'>
+                            <name>I wait for visible "//img[contains(@class, 'logo')]", 20</name>
+                            <title>I wait for visible "//img[contains(@class, 'logo')]", 20</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1558004723940' status='passed' stop='1558004724169'>
+                            <name>I fill field "//input[contains(@id, 'email') and (@name = 'email')]", "testingTesterson900@gmail.com"</name>
+                            <title>I fill field "//input[contains(@id, 'email') and (@name = 'email')]", "testingTesterson900@gmail.com"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1558004724169' status='passed' stop='1558004724295'>
+                            <name>I fill field "//input[contains(@id, 'passwd')]", "Qwerty.1"</name>
+                            <title>I fill field "//input[contains(@id, 'passwd')]", "Qwerty.1"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1558004724295' status='passed' stop='1558004727140'>
+                            <name>I click "//button[contains(.,'Sign in')]"</name>
+                            <title>I click "//button[contains(.,'Sign in')]"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1558004727140' status='passed' stop='1558004730567'>
+                            <name>I am on page "index.php"</name>
+                            <title>I am on page "index.php"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

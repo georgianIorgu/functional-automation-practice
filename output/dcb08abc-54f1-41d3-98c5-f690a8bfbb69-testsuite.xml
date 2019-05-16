@@ -1,0 +1,49 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1558002142964' stop='1558002172162'>
+    <name>LoginTest:</name>
+    <title>LoginTest:</title>
+    <test-cases>
+        <test-case start='1558002142966' status='failed' stop='1558002172090'>
+            <name>test something</name>
+            <title>test something</title>
+            <labels>
+                <label name='tag' value='null'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1558002146335' status='failed' stop='1558002172090'>
+                    <name>I: loginAs </name>
+                    <title>I: loginAs </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1558002146335' status='passed' stop='1558002151962'>
+                            <name>I am on page "/"</name>
+                            <title>I am on page "/"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1558002151962' status='passed' stop='1558002152082'>
+                            <name>I resize window "maximize", "maximize"</name>
+                            <title>I resize window "maximize", "maximize"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1558002152082' status='failed' stop='1558002172089'>
+                            <name>I wait for visible "//h1[contains(.,'Bine ai venit')]", 20</name>
+                            <title>I wait for visible "//h1[contains(.,'Bine ai venit')]", 20</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>element (//h1[contains(.,'Bine ai venit')]) still not visible after 20 sec</message>
+                <stack-trace>Error: element (//h1[contains(.,'Bine ai venit')]) still not visible after 20 sec
+                    at timer.catch.e (C:\Users\Administrator\AppData\Roaming\npm\node_modules\webdriverio\build\commands\browser\waitUntil.js:68:13)
+                    at &lt;anonymous></stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
